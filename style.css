@@ -1,0 +1,408 @@
+/* Website Theme Color Code #FAD336 */
+
+
+
+/* Navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(40px);
+}
+
+
+.nav-border{
+    border-left: 1px solid rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+
+
+/* Nav Search Bar  */
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 65vw;
+    background-color: transparent;
+    border: 0;
+    margin-left: 20px;
+    border-bottom: 2px solid black !important;
+}
+
+.search-container input {
+    background-color: transparent;
+    padding: 5px;
+    width: 65vw;
+    border-radius: 0px !important;
+    border: 0;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+
+.search-container button {
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 17px;
+}
+
+.form-floating{
+    padding: 0px !important;
+}
+
+.search-container button i {
+    color: black;
+}
+
+
+
+/* Nav Buttons */
+.nav-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-login-button {
+    border: 1px solid #fad336;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    background-color: #fad336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* Cart */
+.cart-count{
+    position: absolute;
+    top: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    right: 10px;
+}
+
+
+
+/* Swiper Slider */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Cards Styling*/
+.card{
+    position: relative;
+    padding: 20px;
+    padding-top: 140px;
+    border: 0;
+}
+
+@media screen and (max-width:368px) {
+    .card{
+        padding-top: 50px;
+    }
+}
+
+.card-btn{
+    font-weight: bold;
+    border: 0;
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    padding: 6px 30px;
+    position: relative;
+    z-index: 99;
+    transition: 0.5s all ease;
+}
+
+.card-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.card img{
+    position: absolute;
+}
+
+
+
+/* Card 1 Styling */
+.card-1{
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #434343, #000000);
+}
+
+.card-1 h1{
+    color: gray;
+    font-weight: bold;
+}
+
+.card-btn-1{
+    background-color: grey;
+}
+
+.card-btn-1:hover{
+    color: black;
+}
+
+.card-img-1{
+    max-width: 100%;
+    bottom: 0px;
+    left: 20px;
+}
+
+
+
+
+/* Card 2 Styling */
+.card-2{
+    background: #fad336;
+    background: -webkit-linear-gradient(to top, #ffcc00, #ffdd55);
+    background: linear-gradient(to top, #ffcc00, #ffdd55);
+}
+
+.card-2 h1{
+    color: #ffeda7;
+    font-weight: bold;
+}
+
+.card-btn-2{
+    background-color: #ffdd55;
+}
+
+.card-btn-2:hover{
+    color: #fad336;
+}
+
+.card-img-2{
+    max-width: 60%;
+    top: 30px;
+    right: 20px;
+}
+
+@media screen and (max-width:368px) {
+    .card-img-2{
+        max-width: 50%;
+    }
+}
+
+
+
+
+/* Card 3 Styling */
+.card-3{
+    background: #fa3636;
+    background: -webkit-linear-gradient(to right, #fa4e4e, #f81d1d);
+    background: linear-gradient(to right, #fa4e4e, #f81d1d);
+}
+
+.card-3 h1{
+    color: #f89999;
+    font-weight: bold;
+}
+
+.card-btn-3{
+    background-color: #ff6161;
+} 
+
+.card-btn-3:hover{
+    color: #f81d1d;
+}
+
+.card-img-3{
+    max-width: 60%;
+    top: 10px;
+    right: 20px;
+}
+
+
+
+
+/* Card 4 Styling */
+.card-4{
+    background: #c5c5c5;
+    background: -webkit-linear-gradient(to right, #c5c5c5, rgb(255, 251, 251));
+    background: linear-gradient(to right, #929292, rgb(255, 251, 251));
+}
+
+.card-4 h1{
+    color: #c4c4c4;
+    font-weight: bold;
+}
+
+.card-btn-4{
+    background-color: #c4c4c4;
+} 
+
+.card-btn-4:hover{
+    color: #808080;
+}
+
+.card-img-4{
+    max-width: 100%;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+
+/* Card 5 Styling */
+.card-5{
+    background: #c5c5c5;
+    background: -webkit-linear-gradient(to right, #0077ff, #004ba1);
+    background: linear-gradient(to right, #0077ff, #004ba1);
+}
+
+.card-5 h1{
+    color: #58a6ff;
+    font-weight: bold;
+}
+
+.card-btn-5{
+    background-color: #1481ff;
+} 
+
+.card-btn-5:hover{
+    color: #1481ff;
+}
+
+.card-img-5{
+    max-width: 85%;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media screen and (max-width:368px) {
+    .card-img-5{
+        max-width: 70%;
+    }
+}
+
+
+
+
+/* Card 6 Styling */
+.card-6{
+    background: #00c542;
+    background: -webkit-linear-gradient(to top, #00c542, #009933);
+    background: linear-gradient(to top, #0ada4f, #009933);
+}
+
+.card-6 h1{
+    color: #70ffa0;
+    font-weight: bold;
+}
+
+.card-btn-6{
+    background-color: #18fd64;
+} 
+
+.card-btn-6:hover{
+    color: #0ada4f;
+}
+
+.card-img-6{
+    max-width: 100%;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media screen and (max-width:368px) {
+    .card-img-6{
+        max-width: 80%;
+    }
+}
+
+
+
+
+/* Services */
+.service-icon-1,
+.service-icon-2,
+.service-icon-3,
+.service-icon-4
+{
+    color: black;
+    transition: 0.2s color ease;
+    cursor: pointer;
+}
+
+.service-icon-1:hover,
+.service-icon-2:hover,
+.service-icon-3:hover,
+.service-icon-4:hover
+{
+    color: #fad336;
+}
+
+
+
+/* Advertisment Sale Cards */
+.sale-card{
+    background-color: hsl(0, 100%, 60%);
+    padding: 80px 40px;
+    border-radius: 30px;
+}
+
+.sale-card-img img{
+    max-width: 50%;
+}
+
+@media screen and (max-width:992px) {
+    .sale-card-img{
+        top: 10% !important;
+        right: 0% !important;
+        max-width: 100%;
+    }
+    
+    .sale-card-img img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .sale-card-img img{
+        max-width: 75%;
+    }
+}
+
+.sale-card-btn{
+    background-color: white;
+    font-weight: 600;
+    transition: 0.4s all ease;
+    position: relative;
+    z-index: 99;
+}
+
+.sale-card-btn:hover{
+    background-color: rgba(255, 255, 255, 0.808);
+    color: rgb(10, 10, 10);
+}
+
+
+
+
+/* Best Selling Products */
+.sec-5{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.product-card img{
+    width: 320px !important;
+}
